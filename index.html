@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is an Simple form </h1>
+    <form action="target.html">
+        <label for="name">Enter username :</label>
+        <input id="name" type="text" name="username" placeholder="enter username"/>
+        <input type="submit" value="submit"/>
+
+        <!--Radio button-->
+        <h1>Implementing radio button</h1>
+        <h2>Gender :</h2>
+        <label for="m">Male</label>
+        <input id="m" type="radio" name="gender"/>
+        <label for="f">Female</label>
+        <input id="f" type="radio" name="gender"/>
+        <label for="t">Others</label>
+        <input id="t" type="radio" name="gender"/>
+        
+        <!--Dropdown box/select box-->
+        <h1>Implementing drop down box</h1>
+        <label>Choose your payment methods :</label>
+        <select name="pmode">
+            <option value="">choose one</option>
+            <option value="dcard">Debit card</option>
+            <option value="ccard">Credit card</option>
+            <option value="online">Online Trasfer</option>
+        </select>
+
+        <h2>Enter your feedback below :</h2>
+        <textarea name="feedback" cols="50" rows="10">write here</textarea>
+
+        <!--Checkbox-->
+        <h1>Implementing Checkbox</h1>
+        <h2>Languages you know :</h2>
+        <input type="checkbox" name="languages" value="kannada"/>kannada <br>
+        <input type="checkbox" name="languages" value="english"/>English <br>
+        <input type="checkbox" name="languages" value="hindi"/>Hindi <br>
+        <input type="checkbox" name="languages" value="telugu"/>Telugu <br>
+    </form>
+    <ol>
+        <li>Hi</li>
+        <li>Hello</li>
+        <ul>
+            <li>sdhfdsl</li>
+        </ul>
+    </ol>
+    <ul>
+        <li>Hi</li>
+        <li>Hello</li>
+        <ol>
+            <li>sdhfdsl</li>
+        </ol>
+    </ul>
+</body>
+</html>
